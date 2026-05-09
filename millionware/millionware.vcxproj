@@ -135,10 +135,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\core\loader.cpp" />
+    <ClCompile Include="src\core\memory.cpp" />
+    <ClCompile Include="src\utils\interfaces.cpp" />
+    <ClCompile Include="src\utils\pattern.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bins.hpp" />
+    <ClInclude Include="include\common.hpp" />
+    <ClInclude Include="include\core\loader.hpp" />
+    <ClInclude Include="include\core\memory.hpp" />
+    <ClInclude Include="include\utils\interfaces.hpp" />
+    <ClInclude Include="include\utils\pattern.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
